@@ -1,0 +1,21 @@
+def fibonacci(n):
+    a=0
+    b=1
+    print("fibonacci number")
+    for i in range(n):
+        print(a)
+        c=a+b
+        a=b
+        b=c
+#main program
+num=int(input("enter the number of terms:"))
+fibonacci(num)
+
+output
+enter the number of terms:5
+fibonacci number
+0
+1
+1
+2
+3
